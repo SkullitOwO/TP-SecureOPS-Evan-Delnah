@@ -1,0 +1,12 @@
+# Nmap 7.98 scan initiated Tue Apr 14 16:19:21 2026 as: /usr/lib/nmap/nmap -sS -sV -oA nexa_scan_10.74.1.65 10.74.1.65
+Nmap scan report for 10.74.1.65
+Host is up (0.00013s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 10.0p2 Debian 7 (protocol 2.0)
+80/tcp open  http    Apache httpd 2.4.66 ((Debian))
+MAC Address: BC:24:11:64:6F:21 (Proxmox Server Solutions GmbH)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Apr 14 16:19:28 2026 -- 1 IP address (1 host up) scanned in 7.02 seconds
