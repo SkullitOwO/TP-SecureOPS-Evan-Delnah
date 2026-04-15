@@ -1,7 +1,7 @@
 Scan Nmap - Infrastructure NexaTech
 
 Date : 14/04/2026
-IP ciblée : 10.74.1.64
+IP ciblée : 10.74.1.65
 
 1. Résultats du scan Nmap
 
