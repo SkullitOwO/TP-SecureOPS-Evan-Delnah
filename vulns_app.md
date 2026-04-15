@@ -39,6 +39,7 @@ Exécution du script côté client, affichant une alerte "Hello".
 
 <img width="487" height="112" alt="image" src="https://github.com/user-attachments/assets/adca3a96-579a-4fae-a16b-d3371cdba163" />
 
+Les entrées utilisateur sont renvoyées sans encodage, permettant l’exécution de scripts JavaScript dans le navigateur de la victime.
 
 ### IDOR
 
