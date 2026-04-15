@@ -12,9 +12,9 @@ Date : 14/04/2026
 
 **Application DVWA** (Niveau Low)
 **Champ vulnérable** User ID
-**Payload utilisé** ```sql
+**Payload utilisé**
 1' OR 1=1 -- 
-```
+
 Résulat : 
 
 Affichage de toutes les entrées de la base de données :
@@ -25,6 +25,8 @@ Hack
 Pablo
 Bob
 
+<img width="492" height="303" alt="image" src="https://github.com/user-attachments/assets/2f237a7d-54b6-4817-a58c-adee4f569731" />
+
 ### XSS reflected
 
 **Application DVWA**
@@ -34,6 +36,9 @@ Bob
 Résultat :
 
 Exécution du script côté client, affichant une alerte "Hello".
+
+<img width="487" height="112" alt="image" src="https://github.com/user-attachments/assets/adca3a96-579a-4fae-a16b-d3371cdba163" />
+
 
 ### IDOR
 
@@ -51,3 +56,5 @@ Résultat : Accès possible sans privilège admin.
 - X-Frame-Options : Absent
 - Content-Security-Policy : Absent
 - Server : Apache/2.4.66
+
+<img width="881" height="310" alt="image" src="https://github.com/user-attachments/assets/e8c90e3d-78c8-4352-9665-8ac850433a20" />
