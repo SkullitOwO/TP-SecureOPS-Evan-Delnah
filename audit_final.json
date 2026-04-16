@@ -1,0 +1,59 @@
+{
+  "date": "2026-04-16 19:07:44.113053",
+  "target": "127.0.0.1",
+  "network_scan": {
+    "127.0.0.1": {
+      "25": "smtp",
+      "80": "http"
+    }
+  },
+  "system_checks": {
+    "ssh_actif": "active",
+    "ufw_actif": true,
+    "root_ssh_desactive": true
+  },
+  "vulnerabilities": [
+    {
+      "name": "XSS Reflected",
+      "cvss": 6.1,
+      "severity": "MOYENNE",
+      "proof": "preuve_xss.txt",
+      "remediation": "Utiliser htmlspecialchars()"
+    },
+    {
+      "name": "SQL Injection",
+      "cvss": 9.8,
+      "severity": "CRITIQUE",
+      "proof": "preuve_sqli.txt",
+      "remediation": "PDO + requêtes préparées"
+    },
+    {
+      "name": "IDOR - accès utilisateur",
+      "cvss": 8.1,
+      "severity": "HAUTE",
+      "proof": "preuve_sqli.txt",
+      "remediation": "Vérification RBAC côté serveur"
+    },
+    {
+      "name": "SSH root autorisé",
+      "cvss": 9.1,
+      "severity": "CRITIQUE",
+      "proof": "preuve_audit_bash_v2.txt",
+      "remediation": "PermitRootLogin no"
+    },
+    {
+      "name": "UFW désactivé",
+      "cvss": 7.5,
+      "severity": "HAUTE",
+      "proof": "preuve_ufw.txt",
+      "remediation": "ufw enable + règles strictes"
+    },
+    {
+      "name": "Headers HTTP manquants",
+      "cvss": 5.3,
+      "severity": "MOYENNE",
+      "proof": "preuve_headers.txt",
+      "remediation": "Ajouter X-Frame-Options, CSP"
+    }
+  ]
+}
