@@ -1,0 +1,4 @@
+# Nmap 7.98 scan initiated Tue Apr 14 16:19:21 2026 as: /usr/lib/nmap/nmap -sS -sV -oA nexa_scan_10.74.1.65 10.74.1.65
+Host: 10.74.1.65 ()	Status: Up
+Host: 10.74.1.65 ()	Ports: 22/open/tcp//ssh//OpenSSH 10.0p2 Debian 7 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.66 ((Debian))/	Ignored State: closed (998)
+# Nmap done at Tue Apr 14 16:19:28 2026 -- 1 IP address (1 host up) scanned in 7.02 seconds
