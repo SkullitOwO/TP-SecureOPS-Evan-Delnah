@@ -35,19 +35,19 @@ PORT       STATE      SERVICE         VERSION
 
 ### Vulnérabilités détectés
 
-**CVE-2026-35414** (Score CVSS : 8.1)
+**CVE-2026-35414** (Score CVSS : 8.1) Elevé
 
-**CVE-2026-35385** (Score CVSS : 7.5)
+**CVE-2026-35385** (Score CVSS : 7.5) Elevé
 
-**CVE-2026-35386** (Score CVSS : 3.6)
+**CVE-2026-35386** (Score CVSS : 3.6) Faible
 
-**CVE-2025-61985** (Score CVSS : 3.6)
+**CVE-2025-61985** (Score CVSS : 3.6) Faible
 
-**CVE-2025-61984** (Score CVSS : 3.6)
+**CVE-2025-61984** (Score CVSS : 3.6) Faible
 
-**CVE-2025-61983** (Score CVSS : 3.6)
+**CVE-2025-61983** (Score CVSS : 3.6) Faible
 
-**CVE-2026-35387** (Score CVSS : 3.1)
+**CVE-2026-35387** (Score CVSS : 3.1) Faible
 
 ### Service Web identifiés
 
